@@ -7,24 +7,26 @@
     android:orientation="vertical" >
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/framelayout"
-        android:layout_marginTop="10dp" >
+        android:layout_width="380dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Fragment First" />
+            android:layout_gravity="top"
+            android:text="First" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Fragment Second" />
+            android:layout_gravity="bottom"
+            android:text="Second" />
+
     </FrameLayout>
 
 </LinearLayout>

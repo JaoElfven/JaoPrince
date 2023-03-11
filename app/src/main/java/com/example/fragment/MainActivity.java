@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FragmentA = (Button) findViewById(R.id.fragmentfirst);
-        FragmentB = (Button) findViewById(R.id.fragmentsecond);
+        FragmentA = (Button) findViewById(R.id.button3);
+        FragmentB = (Button) findViewById(R.id.button4);
 
         FragmentA.setOnClickListener(new View.OnClickListener() {
             @Override
