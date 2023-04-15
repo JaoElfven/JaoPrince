@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">buttonnav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="btn_Nti">CLICK HERE TO GET BATTERY HEALTH</string>
+    <string name="text_notification">This is notification Fragment</string>
+</resources>
